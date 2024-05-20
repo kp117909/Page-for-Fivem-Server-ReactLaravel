@@ -16,7 +16,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
     rel="stylesheet"
     />
-    
+    <link rel="icon" href="{{ asset('imgs/logo3.png') }}">
+    <title>MajorkaRP</title>
     @vite(['resources/css/index.css', 'resources/js/app.js'])
 </head>
 <body>

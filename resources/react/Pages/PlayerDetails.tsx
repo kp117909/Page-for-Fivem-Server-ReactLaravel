@@ -16,6 +16,7 @@ import DateRangeIcon from '@mui/icons-material/DateRange';
 import FormatIndentIncreaseIcon from '@mui/icons-material/FormatIndentIncrease';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import { UserContext } from '../UserProvider';
+import OnlinePredictionIcon from '@mui/icons-material/OnlinePrediction';
 function PlayerDetails({ playerData, onPlayerCarsClick }) {
     const [identifierValue, setIdentifierValue] = useState('');
     const [identifierValueClear, setIdentifierValueClear] = useState('');
@@ -159,7 +160,24 @@ function PlayerDetails({ playerData, onPlayerCarsClick }) {
                             borderColor: "white",
                             },
                         }}textAlign="center">
-                         <span  className="text">{playerData.name}</span>
+                         <span className="text">
+                            {playerData.name}
+                        {playerData.online === 1 && (
+                            <Tooltip title="Online">
+                            <OnlinePredictionIcon style={{ color: 'green' }} />
+                            </Tooltip>
+                        )}
+                        {playerData.online === 0 && (
+                            <Tooltip title="Offline">
+                            <OnlinePredictionIcon style={{ color: 'red' }} />
+                            </Tooltip>
+                        )}
+                        {playerData.online === null && (
+                            <Tooltip title="Brak danych">
+                            <OnlinePredictionIcon style={{ color: 'grey' }} />
+                            </Tooltip>
+                        )}
+                        </span>
                         </Divider>
                         <p>
                             <Fingerprint/>Hex: <span  className="text">

@@ -12,7 +12,7 @@ class DiscordAuthController
     {
         $queryParams = [
             'client_id' => "1223046534715670669",
-            'redirect_uri' => "http://45.152.161.159:8030/auth/discord/callback",
+            'redirect_uri' => "http://45.152.161.159:80/auth/discord/callback",
             'response_type' => 'code',
             'scope' => 'identify',
         ];
@@ -28,7 +28,7 @@ class DiscordAuthController
             'client_secret' =>"otP8P-bd-I1KUO-dw2BcOYo2RbmVLLrP",
             'grant_type' => 'authorization_code',
             'code' => $request->code,
-            'redirect_uri' =>"http://45.152.161.159:8030/auth/discord/callback",
+            'redirect_uri' =>"http://45.152.161.159:80/auth/discord/callback",
             'scope' => 'identify',
         ]);
 

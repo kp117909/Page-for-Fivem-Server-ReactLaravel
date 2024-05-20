@@ -1,0 +1,68 @@
+{
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "fa-brands-400-DHHcbFjz.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "fa-brands-400-Ch568Ea9.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "fa-regular-400-C54-fRIQ.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "fa-regular-400-9VThgXHM.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "fa-solid-900-Cm9M9sZB.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "fa-solid-900-QWY35r5r.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "fa-v4compatibility-DLBX5pNp.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "fa-v4compatibility-BRdYr4HJ.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/css/index.css": {
+    "file": "css-DytPFK9q.css",
+    "src": "resources/css/index.css",
+    "isEntry": true
+  },
+  "resources/imgs/wave.png": {
+    "file": "wave-DA-NI769.png",
+    "src": "resources/imgs/wave.png"
+  },
+  "resources/js/app.js": {
+    "file": "js-l0sNRNKZ.js",
+    "name": "js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/react/app.tsx": {
+    "file": "react--3lyNmff.js",
+    "name": "react",
+    "src": "resources/react/app.tsx",
+    "isEntry": true,
+    "css": [
+      "react-C5is287F.css"
+    ],
+    "assets": [
+      "fa-brands-400-Ch568Ea9.woff2",
+      "fa-brands-400-DHHcbFjz.ttf",
+      "fa-regular-400-9VThgXHM.woff2",
+      "fa-regular-400-C54-fRIQ.ttf",
+      "fa-solid-900-QWY35r5r.woff2",
+      "fa-solid-900-Cm9M9sZB.ttf",
+      "fa-v4compatibility-BRdYr4HJ.woff2",
+      "fa-v4compatibility-DLBX5pNp.ttf"
+    ]
+  }
+}
